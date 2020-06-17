@@ -1,0 +1,174 @@
+.title_text {
+	font-size: 40px;
+    position: absolute;
+    top: 150px;
+    left: -30px;
+    color: #fff;
+    animation: th2_effect 1.4s .2s ease both;
+    -webkit-animation: th2_effect 2s .3s ease both;
+    font-family: cursive;
+}
+
+.wrap, .wrap input, .wrap textarea {
+	font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, sans-serif;
+	font-family: "Hiragino Sans GB", "Microsoft YaHei",
+		"WenQuanYi Micro Hei", "å¾®è½¯é›…é»‘", tahoma, arial, simsun, "å®‹ä½“";
+}
+
+.wrap {
+	width: 100%; +
+	zoom: 1;
+	transform-origin: center top;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 100%;
+	position: relative;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	zoom: 1;
+	position: relative;
+}
+
+.zoom_wp {
+	position: relative;
+	height: inherit;
+}
+
+.top_sec {
+	height: 1080px;
+	position: relative;
+	overflow: hidden;
+	background: url('https://s2.ax1x.com/2019/09/02/nPRaxs.jpg') no-repeat
+		center top;
+}
+
+.top_sec .content {
+	height: 100%;
+	display: none;
+	position: relative;
+	z-index: 10;
+}
+
+.show .content {
+	display: block;
+}
+
+.top_sec .rpt_bg {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	bottom: 0;
+	left: 0;
+	background: url('https://s2.ax1x.com/2019/09/02/nPIfQe.png') repeat-x
+		center bottom;
+	opacity: .5
+}
+
+.top_sec .page_down {
+	animation: parr_effect 1.5s linear both infinite;
+	-webkit-animation: parr_effect 1.5s linear both infinite;
+}
+
+.title_box canvas {
+	position: absolute;
+	top: -14px;
+	z-index: 5;
+}
+
+.title_box {
+	width: 480px;
+	height: 355px;
+	position: absolute;
+	top: 148px;
+	left: 388px;
+}
+
+
+.title_box .ic_light {
+	position: absolute;
+	background: url('https://s2.ax1x.com/2019/09/02/nPIwM4.png') no-repeat 0
+		0;
+	width: 833px;
+	height: 306px;
+	top: 80px;
+	left: -238px;
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1599px) {
+	.zoom_wp {
+		zoom: .9;
+		zoom: 1\0;
+	}
+	.zoom_wp .salary_con {
+		zoom: .9;
+		zoom: 1\0;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1359px) {
+	.zoom_wp {
+		zoom: .85;
+		zoom: 1\0;
+	}
+	.zoom_wp .salary_con {
+		zoom: .9;
+		zoom: 1\0;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.zoom_wp {
+		zoom: .8;
+		zoom: 1\0;
+	}
+	.zoom_wp .salary_con {
+		zoom: .9;
+		zoom: 1\0;
+	}
+	.footer .footer_inner {
+		-webkit-transition: .3s ease;
+		transition: .3s ease;
+		padding: 36px 20px 60px 20px;
+	}
+}
+
+
+@keyframes parr_effect{
+  0%{transform: translateY(-5px);opacity: 0.8;}
+  50%{transform: translateY(10px);opacity: 1;}
+  100%{transform: translateY(-5px);opacity: 0.8;}
+}
+@-webkit-keyframes parr_effect{
+  0%{-webkit-transform: translateY(-5px);opacity: 0.8;}
+  50%{-webkit-transform: translateY(10px);opacity: 1;}
+  100%{-webkit-transform: translateY(-5px);opacity: 0.8;}
+}
+
+@keyframes th2_effect{
+	0%{transform:scale(1);opacity: 0;}
+	50%{transform:scale(1.1);opacity: 1;}
+	100%{transform:scale(1);}
+}
+@-webkit-keyframes th2_effect{
+	0%{-webkit-transform:scale(1);opacity: 0;}
+	50%{-webkit-transform:scale(1.1);opacity: 1;}
+	100%{-webkit-transform:scale(1);}
+}
+
+.title_box .ic_light{
+	animation: opc_effect .6s 1.2s linear both;
+	-webkit-animation: opc_effect .6s 1.2s linear both;
+} 
+@keyframes opc_effect{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes kic3_effect{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}

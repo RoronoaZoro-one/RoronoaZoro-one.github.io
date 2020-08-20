@@ -1,25 +1,6 @@
 $(function () {
 
-	$(".site-page").on('click', function () {
-		setTimeout(hidePassInput,10000)
-	})
 	
-	function hidePassInput(){
-		$(".passDiv").hide();
-		$('html').css("overflow","auto");
-		$('body').css("overflow","auto");
-	}
-	
-  $('#passWordButton').on('click', function () {
-	  let password = $.md5($("#passWordInput").val());
-	  if(password == "d526c1f664208d42357b516480c28efd"){
-		  alert("密码正确！(✪ω✪)")
-		  hidePassInput()
-	  }else{
-		  alert("密码错误！再想想∑(っ°Д°;)っ");
-		  $("#passWordInput").val("")
-	  }
-  })
 	
   if ($('#sidebar').hasClass('auto_open')) {
     if ($(".sidebar-toc__content").children().length > 0) {
